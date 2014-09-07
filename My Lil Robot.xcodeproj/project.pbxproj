@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		274E8D7819B9EFDC00E8E5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8D7719B9EFDC00E8E5C3 /* AppDelegate.swift */; };
+		274E8D7A19B9EFDC00E8E5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8D7919B9EFDC00E8E5C3 /* ViewController.swift */; };
+		274E8D7D19B9EFDC00E8E5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274E8D7B19B9EFDC00E8E5C3 /* Main.storyboard */; };
+		274E8D7F19B9EFDC00E8E5C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274E8D7E19B9EFDC00E8E5C3 /* Images.xcassets */; };
+		274E8D8B19B9EFDC00E8E5C3 /* My_Lil_RobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8D8A19B9EFDC00E8E5C3 /* My_Lil_RobotTests.swift */; };
+		274E8DA019B9F19B00E8E5C3 /* RobotEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8D9419B9F19B00E8E5C3 /* RobotEye.swift */; };
+		274E8DA419B9F19B00E8E5C3 /* RobotTatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8D9819B9F19B00E8E5C3 /* RobotTatas.swift */; };
+		274E8DA519B9F19B00E8E5C3 /* RobotArcReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8D9919B9F19B00E8E5C3 /* RobotArcReactor.swift */; };
+		274E8DA619B9F19B00E8E5C3 /* Robot Propeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8D9A19B9F19B00E8E5C3 /* Robot Propeller.swift */; };
+		274E8DA719B9F19B00E8E5C3 /* RobotThruster copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8D9B19B9F19B00E8E5C3 /* RobotThruster copy.swift */; };
+		274E8DA819B9F19B00E8E5C3 /* Starter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8D9C19B9F19B00E8E5C3 /* Starter.swift */; };
+		274E8DAA19B9F19B00E8E5C3 /* RobotChainGun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8D9E19B9F19B00E8E5C3 /* RobotChainGun.swift */; };
+		274E8DAB19B9F19B00E8E5C3 /* RobotHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8D9F19B9F19B00E8E5C3 /* RobotHead.swift */; };
+		274E8DAE19B9F27200E8E5C3 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 274E8DAD19B9F27200E8E5C3 /* button.png */; };
+		274E8DB019B9F28C00E8E5C3 /* iOS Simulator Screen Shot Sep 5, 2014, 9.13.42 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 274E8DAF19B9F28C00E8E5C3 /* iOS Simulator Screen Shot Sep 5, 2014, 9.13.42 AM.png */; };
+		274E8DB219B9F2A800E8E5C3 /* chainGun.png in Resources */ = {isa = PBXBuildFile; fileRef = 274E8DB119B9F2A800E8E5C3 /* chainGun.png */; };
+		274E8DB519B9F2D000E8E5C3 /* superArm.png in Resources */ = {isa = PBXBuildFile; fileRef = 274E8DB419B9F2D000E8E5C3 /* superArm.png */; };
+		274E8DBA19B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.23 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 274E8DB619B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.23 AM.png */; };
+		274E8DBB19B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.07 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 274E8DB719B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.07 AM.png */; };
+		274E8DBC19B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.37 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 274E8DB819B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.37 AM.png */; };
+		274E8DBD19B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.30.57 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 274E8DB919B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.30.57 AM.png */; };
+		274E8DC019B9F35F00E8E5C3 /* RobotGun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8DBF19B9F35F00E8E5C3 /* RobotGun.swift */; };
+		274E8DC219B9F3A100E8E5C3 /* RoboRoller copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8DC119B9F3A100E8E5C3 /* RoboRoller copy.swift */; };
+		274E8DC419B9F71800E8E5C3 /* RobotPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E8DC319B9F71800E8E5C3 /* RobotPart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		274E8D8519B9EFDC00E8E5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274E8D6A19B9EFDC00E8E5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274E8D7119B9EFDC00E8E5C3;
+			remoteInfo = "My Lil Robot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		274E8D7219B9EFDC00E8E5C3 /* My Lil Robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Lil Robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274E8D7619B9EFDC00E8E5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274E8D7719B9EFDC00E8E5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		274E8D7919B9EFDC00E8E5C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		274E8D7C19B9EFDC00E8E5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		274E8D7E19B9EFDC00E8E5C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		274E8D8419B9EFDC00E8E5C3 /* My Lil RobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Lil RobotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274E8D8919B9EFDC00E8E5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274E8D8A19B9EFDC00E8E5C3 /* My_Lil_RobotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Lil_RobotTests.swift; sourceTree = "<group>"; };
+		274E8D9419B9F19B00E8E5C3 /* RobotEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotEye.swift; sourceTree = "<group>"; };
+		274E8D9819B9F19B00E8E5C3 /* RobotTatas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotTatas.swift; sourceTree = "<group>"; };
+		274E8D9919B9F19B00E8E5C3 /* RobotArcReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotArcReactor.swift; sourceTree = "<group>"; };
+		274E8D9A19B9F19B00E8E5C3 /* Robot Propeller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Robot Propeller.swift"; sourceTree = "<group>"; };
+		274E8D9B19B9F19B00E8E5C3 /* RobotThruster copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RobotThruster copy.swift"; sourceTree = "<group>"; };
+		274E8D9C19B9F19B00E8E5C3 /* Starter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Starter.swift; sourceTree = "<group>"; };
+		274E8D9E19B9F19B00E8E5C3 /* RobotChainGun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotChainGun.swift; sourceTree = "<group>"; };
+		274E8D9F19B9F19B00E8E5C3 /* RobotHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotHead.swift; sourceTree = "<group>"; };
+		274E8DAD19B9F27200E8E5C3 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		274E8DAF19B9F28C00E8E5C3 /* iOS Simulator Screen Shot Sep 5, 2014, 9.13.42 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot Sep 5, 2014, 9.13.42 AM.png"; sourceTree = "<group>"; };
+		274E8DB119B9F2A800E8E5C3 /* chainGun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chainGun.png; sourceTree = "<group>"; };
+		274E8DB319B9F2C600E8E5C3 /* RobotTaTas.png.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotTaTas.png.psd; sourceTree = "<group>"; };
+		274E8DB419B9F2D000E8E5C3 /* superArm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = superArm.png; sourceTree = "<group>"; };
+		274E8DB619B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.23 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-09-05 at 9.31.23 AM.png"; sourceTree = "<group>"; };
+		274E8DB719B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.07 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-09-05 at 9.31.07 AM.png"; sourceTree = "<group>"; };
+		274E8DB819B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.37 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-09-05 at 9.31.37 AM.png"; sourceTree = "<group>"; };
+		274E8DB919B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.30.57 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-09-05 at 9.30.57 AM.png"; sourceTree = "<group>"; };
+		274E8DBF19B9F35F00E8E5C3 /* RobotGun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotGun.swift; sourceTree = "<group>"; };
+		274E8DC119B9F3A100E8E5C3 /* RoboRoller copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RoboRoller copy.swift"; sourceTree = "<group>"; };
+		274E8DC319B9F71800E8E5C3 /* RobotPart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotPart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		274E8D6F19B9EFDC00E8E5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274E8D8119B9EFDC00E8E5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		274E8D6919B9EFDC00E8E5C3 = {
+			isa = PBXGroup;
+			children = (
+				274E8DAC19B9F23F00E8E5C3 /* Images */,
+				274E8DBE19B9F30200E8E5C3 /* Parts */,
+				274E8D7419B9EFDC00E8E5C3 /* My Lil Robot */,
+				274E8D8719B9EFDC00E8E5C3 /* My Lil RobotTests */,
+				274E8D7319B9EFDC00E8E5C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		274E8D7319B9EFDC00E8E5C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				274E8D7219B9EFDC00E8E5C3 /* My Lil Robot.app */,
+				274E8D8419B9EFDC00E8E5C3 /* My Lil RobotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		274E8D7419B9EFDC00E8E5C3 /* My Lil Robot */ = {
+			isa = PBXGroup;
+			children = (
+				274E8D7719B9EFDC00E8E5C3 /* AppDelegate.swift */,
+				274E8D7919B9EFDC00E8E5C3 /* ViewController.swift */,
+				274E8D7B19B9EFDC00E8E5C3 /* Main.storyboard */,
+				274E8D7E19B9EFDC00E8E5C3 /* Images.xcassets */,
+				274E8D7519B9EFDC00E8E5C3 /* Supporting Files */,
+			);
+			path = "My Lil Robot";
+			sourceTree = "<group>";
+		};
+		274E8D7519B9EFDC00E8E5C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				274E8D7619B9EFDC00E8E5C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		274E8D8719B9EFDC00E8E5C3 /* My Lil RobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				274E8D8A19B9EFDC00E8E5C3 /* My_Lil_RobotTests.swift */,
+				274E8D8819B9EFDC00E8E5C3 /* Supporting Files */,
+			);
+			path = "My Lil RobotTests";
+			sourceTree = "<group>";
+		};
+		274E8D8819B9EFDC00E8E5C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				274E8D8919B9EFDC00E8E5C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		274E8DAC19B9F23F00E8E5C3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				274E8DB619B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.23 AM.png */,
+				274E8DB719B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.07 AM.png */,
+				274E8DB819B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.37 AM.png */,
+				274E8DB919B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.30.57 AM.png */,
+				274E8DB119B9F2A800E8E5C3 /* chainGun.png */,
+				274E8DB419B9F2D000E8E5C3 /* superArm.png */,
+				274E8DB319B9F2C600E8E5C3 /* RobotTaTas.png.psd */,
+				274E8DAF19B9F28C00E8E5C3 /* iOS Simulator Screen Shot Sep 5, 2014, 9.13.42 AM.png */,
+				274E8DAD19B9F27200E8E5C3 /* button.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		274E8DBE19B9F30200E8E5C3 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				274E8DC319B9F71800E8E5C3 /* RobotPart.swift */,
+				274E8DC119B9F3A100E8E5C3 /* RoboRoller copy.swift */,
+				274E8D9919B9F19B00E8E5C3 /* RobotArcReactor.swift */,
+				274E8D9F19B9F19B00E8E5C3 /* RobotHead.swift */,
+				274E8D9B19B9F19B00E8E5C3 /* RobotThruster copy.swift */,
+				274E8DBF19B9F35F00E8E5C3 /* RobotGun.swift */,
+				274E8D9819B9F19B00E8E5C3 /* RobotTatas.swift */,
+				274E8D9C19B9F19B00E8E5C3 /* Starter.swift */,
+				274E8D9419B9F19B00E8E5C3 /* RobotEye.swift */,
+				274E8D9E19B9F19B00E8E5C3 /* RobotChainGun.swift */,
+				274E8D9A19B9F19B00E8E5C3 /* Robot Propeller.swift */,
+			);
+			name = Parts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		274E8D7119B9EFDC00E8E5C3 /* My Lil Robot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274E8D8E19B9EFDC00E8E5C3 /* Build configuration list for PBXNativeTarget "My Lil Robot" */;
+			buildPhases = (
+				274E8D6E19B9EFDC00E8E5C3 /* Sources */,
+				274E8D6F19B9EFDC00E8E5C3 /* Frameworks */,
+				274E8D7019B9EFDC00E8E5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Lil Robot";
+			productName = "My Lil Robot";
+			productReference = 274E8D7219B9EFDC00E8E5C3 /* My Lil Robot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		274E8D8319B9EFDC00E8E5C3 /* My Lil RobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274E8D9119B9EFDC00E8E5C3 /* Build configuration list for PBXNativeTarget "My Lil RobotTests" */;
+			buildPhases = (
+				274E8D8019B9EFDC00E8E5C3 /* Sources */,
+				274E8D8119B9EFDC00E8E5C3 /* Frameworks */,
+				274E8D8219B9EFDC00E8E5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274E8D8619B9EFDC00E8E5C3 /* PBXTargetDependency */,
+			);
+			name = "My Lil RobotTests";
+			productName = "My Lil RobotTests";
+			productReference = 274E8D8419B9EFDC00E8E5C3 /* My Lil RobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		274E8D6A19B9EFDC00E8E5C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Katlyn Schwaebe";
+				TargetAttributes = {
+					274E8D7119B9EFDC00E8E5C3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					274E8D8319B9EFDC00E8E5C3 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 274E8D7119B9EFDC00E8E5C3;
+					};
+				};
+			};
+			buildConfigurationList = 274E8D6D19B9EFDC00E8E5C3 /* Build configuration list for PBXProject "My Lil Robot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 274E8D6919B9EFDC00E8E5C3;
+			productRefGroup = 274E8D7319B9EFDC00E8E5C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				274E8D7119B9EFDC00E8E5C3 /* My Lil Robot */,
+				274E8D8319B9EFDC00E8E5C3 /* My Lil RobotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		274E8D7019B9EFDC00E8E5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274E8D7D19B9EFDC00E8E5C3 /* Main.storyboard in Resources */,
+				274E8DAE19B9F27200E8E5C3 /* button.png in Resources */,
+				274E8DBA19B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.23 AM.png in Resources */,
+				274E8DBB19B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.07 AM.png in Resources */,
+				274E8DBC19B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.31.37 AM.png in Resources */,
+				274E8DB519B9F2D000E8E5C3 /* superArm.png in Resources */,
+				274E8DB019B9F28C00E8E5C3 /* iOS Simulator Screen Shot Sep 5, 2014, 9.13.42 AM.png in Resources */,
+				274E8DBD19B9F2EB00E8E5C3 /* Screen Shot 2014-09-05 at 9.30.57 AM.png in Resources */,
+				274E8D7F19B9EFDC00E8E5C3 /* Images.xcassets in Resources */,
+				274E8DB219B9F2A800E8E5C3 /* chainGun.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274E8D8219B9EFDC00E8E5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		274E8D6E19B9EFDC00E8E5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274E8DC019B9F35F00E8E5C3 /* RobotGun.swift in Sources */,
+				274E8DA619B9F19B00E8E5C3 /* Robot Propeller.swift in Sources */,
+				274E8DA419B9F19B00E8E5C3 /* RobotTatas.swift in Sources */,
+				274E8DC219B9F3A100E8E5C3 /* RoboRoller copy.swift in Sources */,
+				274E8DAA19B9F19B00E8E5C3 /* RobotChainGun.swift in Sources */,
+				274E8D7A19B9EFDC00E8E5C3 /* ViewController.swift in Sources */,
+				274E8DC419B9F71800E8E5C3 /* RobotPart.swift in Sources */,
+				274E8DA519B9F19B00E8E5C3 /* RobotArcReactor.swift in Sources */,
+				274E8D7819B9EFDC00E8E5C3 /* AppDelegate.swift in Sources */,
+				274E8DA719B9F19B00E8E5C3 /* RobotThruster copy.swift in Sources */,
+				274E8DA019B9F19B00E8E5C3 /* RobotEye.swift in Sources */,
+				274E8DA819B9F19B00E8E5C3 /* Starter.swift in Sources */,
+				274E8DAB19B9F19B00E8E5C3 /* RobotHead.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274E8D8019B9EFDC00E8E5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274E8D8B19B9EFDC00E8E5C3 /* My_Lil_RobotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		274E8D8619B9EFDC00E8E5C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274E8D7119B9EFDC00E8E5C3 /* My Lil Robot */;
+			targetProxy = 274E8D8519B9EFDC00E8E5C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		274E8D7B19B9EFDC00E8E5C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274E8D7C19B9EFDC00E8E5C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		274E8D8C19B9EFDC00E8E5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		274E8D8D19B9EFDC00E8E5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		274E8D8F19B9EFDC00E8E5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "My Lil Robot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		274E8D9019B9EFDC00E8E5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "My Lil Robot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		274E8D9219B9EFDC00E8E5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "My Lil RobotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Lil Robot.app/My Lil Robot";
+			};
+			name = Debug;
+		};
+		274E8D9319B9EFDC00E8E5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "My Lil RobotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Lil Robot.app/My Lil Robot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		274E8D6D19B9EFDC00E8E5C3 /* Build configuration list for PBXProject "My Lil Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274E8D8C19B9EFDC00E8E5C3 /* Debug */,
+				274E8D8D19B9EFDC00E8E5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274E8D8E19B9EFDC00E8E5C3 /* Build configuration list for PBXNativeTarget "My Lil Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274E8D8F19B9EFDC00E8E5C3 /* Debug */,
+				274E8D9019B9EFDC00E8E5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		274E8D9119B9EFDC00E8E5C3 /* Build configuration list for PBXNativeTarget "My Lil RobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274E8D9219B9EFDC00E8E5C3 /* Debug */,
+				274E8D9319B9EFDC00E8E5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 274E8D6A19B9EFDC00E8E5C3 /* Project object */;
+}
